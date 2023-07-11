@@ -11,6 +11,7 @@ import jakarta.persistence.Table;
 public class Tasks {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	
 	private int taskId;
 	private String task;
 	private String date;
