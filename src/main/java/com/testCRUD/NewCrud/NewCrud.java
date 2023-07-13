@@ -2,8 +2,10 @@ package com.testCRUD.NewCrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.testCRUD.NewCrud.imageRepo"})
 public class NewCrud {
 
 	public static void main(String[] args) {
